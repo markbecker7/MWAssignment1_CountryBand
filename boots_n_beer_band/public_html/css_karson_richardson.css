@@ -11,12 +11,30 @@ h3.beginnings {
     max-width: 163px;
 }
 
-p.beginnings {
-    background: white;
-    border: solid;
-    border-style: outset;
+h3.tour{
+    border-left-style: solid;
+    border-right-style: solid;
     border-color: #653119;
-    max-width: 1000px;   
+    padding: 0px 5px;
+    font-family: Engravers MT;
+    max-width: 80px;
+}
+
+h3.website_source {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #653119;
+    padding: 0px 5px;
+    font-family: Engravers MT;
+    max-width: 200px;
+    font-size: 16px
+}
+
+p.beginnings {
+    border-left-style: solid;
+    border-color: #653119;
+    max-width: 1000px;
+    padding: 0px 5px;
 }
 
 nav ul {
