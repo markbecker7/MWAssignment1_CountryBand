@@ -1,6 +1,16 @@
 body {
     background-image:  linear-gradient(to bottom, #ab936d, #ffffff);
 }
+
+h3.beginnings {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #653119;
+    padding: 0px 5px;
+    font-family: Engravers MT;
+    max-width: 163px;
+}
+
 p.beginnings {
     background: white;
     border: solid;
