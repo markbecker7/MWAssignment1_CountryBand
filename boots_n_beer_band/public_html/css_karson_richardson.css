@@ -1,28 +1,43 @@
 body {
-    background: #814A31;
+    background-image:  linear-gradient(to bottom, #ab936d, #ffffff);
 }
 p.beginnings {
     background: white;
-    border-type: solid;
+    border: solid;
     border-style: outset;
     border-color: #653119;
     max-width: 1000px;   
 }
 
 nav ul {
-    list-style-type: none
-    color: black
-    margin: 0;
-    padding: 0;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0px;
     font-family: arial, sans-serif;
-    background-color: #fff;
     overflow: hidden;
 }
 
 nav li {
     float: left;
     display: block;
-    margin: 0px;
+    margin: 20px;
     padding: 5px;
-    border-type: solid;
+    border: solid;
+    font-family: Engravers MT;
+    font-size: 14px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000
+}
+
+nav li:hover {
+    background-color: #fff;
+}
+
+img.boot {
+    display: block;
+    margin: auto;
+    width: 40%;
 }
