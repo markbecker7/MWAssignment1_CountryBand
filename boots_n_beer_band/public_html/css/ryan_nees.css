@@ -1,7 +1,49 @@
 body {
     background: #ffd6aa;
-    <!--Brown Theme Code: AA7439-->
+    <!-- Brown Theme Code: AA7439 -->
+}
+header {
+    background: #804d16;
+    background-image: url("ben_face.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: black;
 }
 
+footer {
+    background: #804d16;
+}
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, serif;
+    background-color:#804d16;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+}
 
+nav li {
+    float:left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+ nav li a:hover {
+    background-color: #111
+ }
