@@ -4,9 +4,12 @@ body {
 }
 header {
     background: #804d16;
-    background-image: url("ben_face.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/13/10/21/boot-157056_960_720.png");
+    background-size: 150px 150px;
+    background-position: right;
     background-repeat: no-repeat;
     color: white;
+    font-family: Goudy Stout, serif;
     font-size: 25px;
     border-style: solid;
     border-width: 3px;
@@ -17,18 +20,20 @@ header {
 
 footer {
     background: #804d16;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-family: Comic Sans MS, serif;
+    font-family: Goudy Stout, serif;
+    font-size: 15px;
     background-color:#804d16;
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
-    padding: 25px;
+    padding: 20px;
     margin: 10px;
 }
 
@@ -45,5 +50,25 @@ nav li a {
     text-decoration: none;
 }
  nav li a:hover {
-    background-color: #111
+    background-color: #552D00
+ }
+ 
+ table, th, td {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #804d16;
+    color: white;
+ }
+ 
+ article {
+    background-color:#d4a16a;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+ }
+ 
+ #sizes {
+    font-weight: bold;
+    font-style: italic;
  }
