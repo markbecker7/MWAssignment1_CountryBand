@@ -5,9 +5,17 @@
 <head>
   <meta charset="utf-8">
   <title>Boots 'N Beer: Sign-up</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        
+        <link rel="stylesheet" href="custom.css">
 </head>
+
 <body>
-<header>
 <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -28,7 +36,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Index</a></li>
             <li><a href="about_page.html">About the Band</a></li>
-            <li><a href="album_page.html">Album Information</a</li>
+            <li><a href="album_page.html">Album Information</a></li>
             <li><a href="info_page.html">Members' Information</a></li>
             <li><a href="schedule_page.html">Schedule</a></li>
             <li><a href="store_page.html">Merchandise</a></li>
@@ -38,6 +46,8 @@
         </div>
       </div>
     </nav>
+<header class="below_menu_container">
+
 <img src="img/bootsnbeer_logo.png" alt="Band Logo" />
 </header>
 
@@ -46,13 +56,28 @@
 <p>By creating an account, you will be able to keep a shopping cart of merchandise you intend on purchasing if you leave the webiste. You will also be notified whenever information on any of the pages have been updated.</p>
 
 <form>
-<pre>
-First Name: <input type="text" name="firstname">
-Last Name:  <input type="text" name="lastname">
-Username:   <input type="text" name="username">
-Password:   <input type="text" name="password">
+<div style="width: 25%;" class="form-group">
+    <label for="firstname">First Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="First Name">
+</div>
+<div style="width: 25%;" class="form-group">
+    <label for="lastname">Last Name</label>
+    <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+</div>
+<div style="width: 25%;" class="form-group">   
+    <label for="username">Username</label>
+    <input type="text" class="form-control" id="username" placeholder="Username">
+</div>
+<div style="width: 25%;" class="form-group">   
+    <label for="password">Password</label>
+    <input type="text" class="form-control" id="password" placeholder="Password">
+</div>
+    
+<input type="checkbox">Receive News and Updates
+<br>
+<div>
 <input type="submit" value="Submit">
-</pre>
+</div>
 </form>
 
 <footer>
