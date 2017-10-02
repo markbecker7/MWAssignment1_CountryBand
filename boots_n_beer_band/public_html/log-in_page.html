@@ -9,7 +9,7 @@
   <title>Boots N' Beer: Log-in Page</title>
 </head>
 <body>
- <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded=
@@ -18,7 +18,7 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-        <li>
+          <li>
             <a href="index.html">Index</a>
           </li>
           <li>
@@ -48,22 +48,27 @@
   </nav>
   <div class="container">
     <div class="below_menu_container">
-  <article>
-    <h2>Log-in Page</h2>
-    <form>
-      <pre>  
-Username: <input type="text" name="username">
-Password: <input type="text" name="password"> 
-<input type="submit" value="log-in">
-</pre>
-    </form>
-    <p>This log-in page is for your favorite Iowa home-town boys, the Boot 'N Beer Band. This page allows you to make an
-    account with this website so you can keep up with the band, find out about important dates, see special brand
-    advertisements, or just to get to know your favorite band members of the group!</p>
-    <p>Has all links for other pages about the band and their events, schedules, merchandising, and contact information.</p>
-  </article><br>
-  <footer>
-    &copy; 2017 Boots 'N Beer Band
-  </footer>
+      <article>
+        <h2>Log-in Page</h2>
+        <p>This log-in page is for your favorite Iowa home-town boys, the Boot 'N Beer Band. This page allows you to make an
+        account with this website so you can keep up with the band, find out about important dates, see special brand
+        advertisements, or just to get to know your favorite band members of the group!</p>
+        <p>Has all links for other pages about the band and their events, schedules, merchandising, and contact
+        information.</p>
+        <div class="form-group">
+          <label for="username">Username:</label> <input type="text" class="form-control" id="username">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label> <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div><button type="button" class="btn btn-info">Submit</button>
+      </article>
+    </div><br>
+    <footer>
+      &copy; 2017 Boots 'N Beer Band
+    </footer>
+  </div>
 </body>
 </html>
