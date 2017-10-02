@@ -19,3 +19,22 @@ h2 {
  table, th, td {
     padding: 10px;
  }
+ 
+ .bass {
+    width: 16%;
+ }
+ 
+ .piano {
+    width: 20%;
+ }
+ 
+ .drums {
+  width: 22%;
+ }
+
+ .guitar {
+    width: 13%;
+ } 
+ .fiddle {
+    width: 25%;
+ }
