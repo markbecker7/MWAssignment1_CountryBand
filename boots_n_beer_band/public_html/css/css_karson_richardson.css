@@ -184,10 +184,6 @@ ul.locations li {
     padding: 3px;
 }
 
-ul.locations li:hover {
-    background-color: #fff;
-}
-
 ol li {
     display: block;
     border: solid 1px;
