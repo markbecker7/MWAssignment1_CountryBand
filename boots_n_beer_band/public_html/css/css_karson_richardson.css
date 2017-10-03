@@ -93,7 +93,7 @@ p.beginnings {
 
 nav ul {
     list-style-type: none;
-    margin: 20px;
+    margin: 0px;
     padding: 0px;
     font-family: arial, sans-serif;
     overflow: hidden;
@@ -102,14 +102,14 @@ nav ul {
 nav li {
     float: left;
     display: block;
-    margin: 15px;
-    padding: 5px;
+    margin: 2px;
+    padding: 0px;
     border: solid;
     font-family: Engravers MT;
-    font-size: 14px;
+    font-size: 10px;
 }
 
-
+<!--
 #index_nav li {
     float: left;
     display: block;
@@ -149,10 +149,10 @@ nav li {
     font-family: Engravers MT;
     font-size: 14px;
 }
-
+-->
 nav li a {
     text-decoration: none;
-    color: #000
+    color: #000000;
 }
 
 nav li:hover {
