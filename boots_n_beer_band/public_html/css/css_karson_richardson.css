@@ -102,9 +102,8 @@ nav ul {
 nav li {
     float: left;
     display: block;
-    margin: 2px;
+    margin: 0px;
     padding: 0px;
-    border: solid;
     font-family: Engravers MT;
     font-size: 10px;
 }
@@ -115,7 +114,7 @@ nav li a {
 }
 
 nav li:hover {
-    background-color: #fff;
+    background-color: #9e7963;
 }
 
 img.boot {
@@ -167,5 +166,5 @@ ol li:hover {
 }
 
 .below_menu_container {
-    padding-top: 100px;
+    padding-top: 125px;
 }
