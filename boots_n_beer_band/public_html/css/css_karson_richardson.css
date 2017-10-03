@@ -109,47 +109,6 @@ nav li {
     font-size: 10px;
 }
 
-<!--
-#index_nav li {
-    float: left;
-    display: block;
-    margin: 5px;
-    padding: 5px;
-    border: solid;
-    font-family: Engravers MT;
-    font-size: 14px;
-}
-
-#merchandise_nav li {
-    float: left;
-    display: block;
-    margin: 5px;
-    padding: 5px;
-    border: solid;
-    font-family: Engravers MT;
-    font-size: 14px;
-}
-
-#schedule_nav li {
-    float: left;
-    display: block;
-    margin: 5px;
-    padding: 5px;
-    border: solid;
-    font-family: Engravers MT;
-    font-size: 14px;
-}
-
-#sizes li {
-    float: left;
-    display: block;
-    margin: 20px;
-    padding: 5px;
-    border: solid;
-    font-family: Engravers MT;
-    font-size: 14px;
-}
--->
 nav li a {
     text-decoration: none;
     color: #000000;
@@ -205,4 +164,8 @@ ol li:hover {
     display: block;
     margin: auto;
     width: 40%;
+}
+
+.below_menu_container {
+    padding-top: 100px;
 }
