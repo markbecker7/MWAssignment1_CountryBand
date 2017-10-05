@@ -38,7 +38,7 @@ h2.biography {
     border-color: #653119;
     padding: 0px 5px;
     font-family: Engravers MT;
-    max-width: 195px;
+    max-width: 275px;
     text-align: center;
     margin: auto auto 20px auto;
 }
@@ -53,7 +53,7 @@ h3.beginnings {
     border-color: #653119;
     padding: 0px 5px;
     font-family: Engravers MT;
-    max-width: 163px;
+    max-width: 250px;
     text-align: center;
     margin: auto;
 }
@@ -64,7 +64,7 @@ h3.tour{
     border-color: #653119;
     padding: 0px 5px;
     font-family: Engravers MT;
-    max-width: 80px;
+    max-width: 120px;
     text-align: center;
     margin: auto;
 }
@@ -75,7 +75,7 @@ h3.website_source {
     border-color: #653119;
     padding: 0px 5px;
     font-family: Engravers MT;
-    max-width: 200px;
+    max-width: 140px;
     font-size: 16px;
     text-align: center;
     margin: auto;
@@ -127,6 +127,27 @@ img {
     display: block;
     margin: auto;
     width: 20%;
+}
+
+img.piano {
+    display: block;
+    margin: auto auto auto 365px;
+    width: 20%;
+    border: outset 5px;    
+}
+    
+img.guitar {
+    display: block;
+    margin: auto auto auto 635px;
+    width: 20%;
+    border: outset 5px;
+}
+
+img.member {
+    display: block;
+    margin: auto;
+    width: 20%;
+    border: outset 5px;
 }
 
 ul.locations {
