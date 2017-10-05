@@ -47,6 +47,10 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    text-align: center;
+}
+
 h3.beginnings {
     border-left-style: solid;
     border-right-style: solid;
@@ -160,6 +164,19 @@ ul.locations li {
     display: block;
     border: solid 1px;
     margin: 20px;
+    padding: 3px;
+}
+
+ul.sizes {
+    list-style-type: none;
+    margin: auto;
+}
+
+ul.sizes li {
+    display: block;
+    border: solid 1px;
+    max-width: 30px;
+    margin: auto auto 10px auto;
     padding: 3px;
 }
 
