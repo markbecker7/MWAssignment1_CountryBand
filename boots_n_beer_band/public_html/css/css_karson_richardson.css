@@ -135,14 +135,14 @@ img {
 
 img.piano {
     display: block;
-    margin: auto auto auto 365px;
+    margin: auto;
     width: 20%;
     border: outset 5px;    
 }
     
 img.guitar {
     display: block;
-    margin: auto auto auto 635px;
+    margin: auto;
     width: 20%;
     border: outset 5px;
 }
