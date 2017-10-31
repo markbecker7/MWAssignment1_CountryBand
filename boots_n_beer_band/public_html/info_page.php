@@ -13,36 +13,10 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
+<?php
+include '../resources/navigation.php';
+?>
 
-            <!-- Three line "hamburger" icon for the collapsed navigation -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <!-- Title on nav bar -->
-          <a class="navbar-brand" href="#">Boots 'N Beer</a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Index</a></li>
-            <li><a href="about_page.html">About the Band</a></li>
-            <li><a href="album_page.html">Album Information</a></li>
-            <li class="active"><a href="info_page.html">Members' Information</a></li>
-            <li><a href="schedule_page.html">Schedule</a></li>
-            <li><a href="store_page.html">Merchandise</a></li>
-            <li><a href="signup_page.html">Sign up</a></li>
-            <li><a href="log-in_page.html">Log-in</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 <div class = "below_menu_container">
 <img class="boot" src="img/bootsnbeer_logo2.png" alt="Band Logo" />
 
@@ -90,9 +64,9 @@ so he plays the drums, piano, and even the bongos! Jake says that he has been pl
 since he was a kid, whether it was when he bought his first pair of drums or when he 
 was beating on the trash can outside, he just felt this rhythm inside! </p>    
 
-<footer> 
-&copy; by Boots 'N Beer 
-</footer>
+<?php
+include '../resources/footer.php';
+?>
 
 </div>
 

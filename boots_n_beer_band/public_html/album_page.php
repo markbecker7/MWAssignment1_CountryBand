@@ -31,36 +31,10 @@
 </head>
 <body> 
 
-<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
+<?php
+include '../resources/navigation.php';
+?>
 
-            <!-- Three line "hamburger" icon for the collapsed navigation -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <!-- Title on nav bar -->
-          <a class="navbar-brand" href="#">Boots 'N Beer</a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Index</a></li>
-            <li><a href="about_page.html">About the Band</a></li>
-            <li class="active"><a href="album_page.html">Album Information</a></li>
-            <li><a href="info_page.html">Members' Information</a></li>
-            <li><a href="schedule_page.html">Schedule</a></li>
-            <li><a href="store_page.html">Merchandise</a></li>
-            <li><a href="signup_page.html">Sign up</a></li>
-            <li><a href="log-in_page.html">Log-in</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 <div class = "below_menu_container">
 <img class="boot" src="img/bootsnbeer_logo2.png" alt="Band Logo"/> 
 
@@ -121,9 +95,9 @@ Make sure you stay tuned to find out when it is official!</p>
 
 <address> Golden Fiddle Records located at 1234 Shawqa Avenue in Des Moines, IA. </address>
 
-<footer> 
-&copy; by Boots 'N Beer 
-</footer>
+<?php
+include '../resources/footer.php';
+?>
 
 </div>
 
